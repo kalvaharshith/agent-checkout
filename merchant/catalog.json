@@ -1,0 +1,58 @@
+{
+    "merchant": {
+        "id": "trailkart",
+        "name": "TrailKart Outdoors",
+        "description": "Small D2C store for hiking and trekking gear"
+    },
+    "currency": "INR",
+    "items": [
+        {
+            "sku": "TK-001",
+            "name": "Trail Water Bottle 750ml",
+            "price_paise": 49900,
+            "category": "hydration",
+            "in_stock": true,
+            "description": "Leak-proof BPA-free bottle, fits standard backpack side pockets."
+        },
+        {
+            "sku": "TK-002",
+            "name": "Merino Hiking Socks (pair)",
+            "price_paise": 39900,
+            "category": "apparel",
+            "in_stock": true,
+            "description": "Cushioned merino blend socks for day treks."
+        },
+        {
+            "sku": "TK-003",
+            "name": "Compact First-Aid Kit",
+            "price_paise": 64900,
+            "category": "safety",
+            "in_stock": true,
+            "description": "18-piece kit: bandages, antiseptic, blister patches, tweezers."
+        },
+        {
+            "sku": "TK-004",
+            "name": "LED Headlamp 200lm",
+            "price_paise": 89900,
+            "category": "lighting",
+            "in_stock": true,
+            "description": "Rechargeable, 3 modes, IPX4 water resistant."
+        },
+        {
+            "sku": "TK-005",
+            "name": "Trail Snack Pack",
+            "price_paise": 29900,
+            "category": "nutrition",
+            "in_stock": true,
+            "description": "Assorted energy bars and electrolyte sachets."
+        },
+        {
+            "sku": "TK-006",
+            "name": "Adjustable Trekking Pole",
+            "price_paise": 129900,
+            "category": "gear",
+            "in_stock": true,
+            "description": "Aluminium 3-section pole, 65-135cm, cork grip."
+        }
+    ]
+}
