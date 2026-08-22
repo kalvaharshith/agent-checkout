@@ -3,10 +3,17 @@ Merchant server: serves an agent-readable catalog.
 Every served action is written to the audit trail.
 """
 import json
+import sys
 from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
+
+# Make sure the project root is on Python's search path,
+# so the audit package is always findable.
+ROOT = Path(__file__).resolve().parent.parent
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from audit.audit import write_event
 

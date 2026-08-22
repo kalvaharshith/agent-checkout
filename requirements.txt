@@ -1,2 +1,6 @@
-python-dotenv==1.0.1
-razorpay==1.4.2
+razorpay
+python-dotenv
+fastapi
+uvicorn
+requests
+openai
