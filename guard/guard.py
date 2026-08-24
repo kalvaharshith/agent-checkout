@@ -34,7 +34,8 @@ class GuardDecision:
     merchant_id: str
     total_paise: int
     budget_paise: int
-    checks: list = field(default_factory=list)      # [(name, passed, detail)]
+    verified_lines: list = field(default_factory=list)
+    checks: list = field(default_factory=list)
     violations: list = field(default_factory=list)
 
     def summary(self) -> str:
@@ -114,6 +115,7 @@ def evaluate_cart(cart_lines, merchant_id, budget_paise, catalog) -> GuardDecisi
         merchant_id=merchant_id,
         total_paise=total_paise,
         budget_paise=budget_paise,
+        verified_lines=verified_lines,
         checks=checks,
         violations=violations,
     )
